@@ -1,0 +1,82 @@
+.header{
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+}
+
+.header:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 8px rgba(211,194,194,0.65);
+    -webkit-box-shadow: 1px 1px 5px 8px rgba(211,194,194,0.65);
+    -moz-box-shadow: 1px 1px 5px 8px rgba(211,194,194,0.65);
+}
+
+.header > .header-logo{
+    width: 50vw;
+    height: inherit;
+    
+}
+
+.header-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+.header > .header-logo > a{
+    font-family: 'Fredoka One', cursive;
+    height: inherit;
+    width: inherit;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 1000px !important;
+    text-decoration: none;
+    /* color: rgb(37, 35, 35); */
+    color: white;
+}
+
+.link-items{
+    font-family: 'Merienda One', cursive;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    /* color: rgb(37, 35, 35); */
+    color: white;
+}   
+
+.link-items:hover {
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-radius: 3px;
+}
+
+.hamburger-menu{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    width: 30px;
+}
+.menu-line{
+    width: 100%;
+    height: 5px;
+    border-radius: .5rem;
+    background-color: white;
+}

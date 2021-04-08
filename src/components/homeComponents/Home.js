@@ -112,7 +112,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <h6>{values.size.wwidth}</h6> */}
+            <h6>{values.size.wwidth}</h6>
+            <h6>{values.size.wheight}</h6>
         </>
     )
 }
